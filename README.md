@@ -1,5 +1,5 @@
 # Analog_EQ
-A five stage equalizer capable of driving a speaker or headphones.
+A five stage equalizer capable of driving a speaker or headphones. Includes KiCad schematic and poster presentation.
 
-![df](https://github.com/AndrewCraddick/Analog_EQ.git/Equalizer_Poster.png?raw=true)
+![](Equalizer_Poster.png)
 
