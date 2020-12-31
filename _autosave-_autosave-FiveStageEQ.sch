@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:_autosave-_autosave-FiveStageEQ-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -27,10 +28,10 @@ $EndComp
 Wire Wire Line
 	5250 950  5250 1300
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R8
+L FiveStageEQ-rescue:R_Small_US-Device R9
 U 1 1 5D5070B1
 P 5000 1300
-F 0 "R8" V 5205 1300 50  0000 C CNN
+F 0 "R9" V 5205 1300 50  0000 C CNN
 F 1 "11k" V 5114 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 1300 50  0001 C CNN
 F 3 "~" H 5000 1300 50  0001 C CNN
@@ -74,10 +75,10 @@ F 3 "" H 5250 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R13
+L FiveStageEQ-rescue:R_Small_US-Device R14
 U 1 1 5D5248E4
 P 5250 1500
-F 0 "R13" H 5182 1454 50  0000 R CNN
+F 0 "R14" H 5182 1454 50  0000 R CNN
 F 1 "27k" H 5182 1545 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 1500 50  0001 C CNN
 F 3 "~" H 5250 1500 50  0001 C CNN
@@ -96,10 +97,10 @@ Wire Wire Line
 	5800 950  6800 950 
 Connection ~ 5800 950 
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R23
+L FiveStageEQ-rescue:R_Small_US-Device R24
 U 1 1 5D54196B
 P 7100 1400
-F 0 "R23" V 7305 1400 50  0000 C CNN
+F 0 "R24" V 7305 1400 50  0000 C CNN
 F 1 "100" V 7214 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 1400 50  0001 C CNN
 F 3 "~" H 7100 1400 50  0001 C CNN
@@ -127,10 +128,10 @@ F 3 "~" H 7350 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Variable_US-Device R28
+L FiveStageEQ-rescue:R_Variable_US-Device R29
 U 1 1 5D54BAE7
 P 7900 2800
-F 0 "R28" V 8150 2800 50  0000 C CNN
+F 0 "R29" V 8150 2800 50  0000 C CNN
 F 1 "10k" V 8050 2800 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Vertical" V 7830 2800 50  0001 C CNN
 F 3 "~" H 7900 2800 50  0001 C CNN
@@ -232,17 +233,6 @@ F 3 "~" H 10500 4000 50  0001 C CNN
 	1    10500 4000
 	-1   0    0    1   
 $EndComp
-$Comp
-L FiveStageEQ-rescue:C_Small-Device C4
-U 1 1 5D728DB9
-P 4400 3700
-F 0 "C4" V 4171 3700 50  0000 C CNN
-F 1 "10μ" V 4262 3700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 3700 50  0001 C CNN
-F 3 "~" H 4400 3700 50  0001 C CNN
-	1    4400 3700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1400 3700 1500 3700
 Wire Wire Line
@@ -274,27 +264,14 @@ F 3 "~" H 1200 3800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3800 3700 4100 3700
-$Comp
-L FiveStageEQ-rescue:R_Small_US-Device R7
-U 1 1 5D728DB2
-P 4200 3700
-F 0 "R7" V 4405 3700 50  0000 C CNN
-F 1 "100" V 4314 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 3700 50  0001 C CNN
-F 3 "~" H 4200 3700 50  0001 C CNN
-	1    4200 3700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4750 1300 4900 1300
+	4650 1300 4900 1300
 Wire Wire Line
 	5800 1300 5800 1250
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R18
+L FiveStageEQ-rescue:R_Small_US-Device R19
 U 1 1 5D4F9AF0
 P 5800 1150
-F 0 "R18" H 5750 1050 50  0000 R CNN
+F 0 "R19" H 5750 1050 50  0000 R CNN
 F 1 "91k" H 5750 1150 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 1150 50  0001 C CNN
 F 3 "~" H 5800 1150 50  0001 C CNN
@@ -302,10 +279,10 @@ F 3 "~" H 5800 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R9
+L FiveStageEQ-rescue:R_Small_US-Device R10
 U 1 1 5D930073
 P 5000 2500
-F 0 "R9" V 5205 2500 50  0000 C CNN
+F 0 "R10" V 5205 2500 50  0000 C CNN
 F 1 "2700" V 5114 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 2500 50  0001 C CNN
 F 3 "~" H 5000 2500 50  0001 C CNN
@@ -329,10 +306,10 @@ F 3 "" H 5250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R14
+L FiveStageEQ-rescue:R_Small_US-Device R15
 U 1 1 5D93008D
 P 5250 2700
-F 0 "R14" H 5182 2654 50  0000 R CNN
+F 0 "R15" H 5182 2654 50  0000 R CNN
 F 1 "6300" H 5182 2745 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 2700 50  0001 C CNN
 F 3 "~" H 5250 2700 50  0001 C CNN
@@ -346,10 +323,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 2700 5900 2700
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R24
+L FiveStageEQ-rescue:R_Small_US-Device R25
 U 1 1 5D9300B7
 P 7100 2600
-F 0 "R24" V 7305 2600 50  0000 C CNN
+F 0 "R25" V 7305 2600 50  0000 C CNN
 F 1 "100" V 7214 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 2600 50  0001 C CNN
 F 3 "~" H 7100 2600 50  0001 C CNN
@@ -377,10 +354,10 @@ F 3 "~" H 7350 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Variable_US-Device R29
+L FiveStageEQ-rescue:R_Variable_US-Device R30
 U 1 1 5D9300C8
 P 7900 3300
-F 0 "R29" V 8150 3300 50  0000 C CNN
+F 0 "R30" V 8150 3300 50  0000 C CNN
 F 1 "500" V 8050 3300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Vertical" V 7830 3300 50  0001 C CNN
 F 3 "~" H 7900 3300 50  0001 C CNN
@@ -390,7 +367,7 @@ $EndComp
 Text GLabel 5900 2700 0    50   Input ~ 0
 V_GND
 Wire Wire Line
-	4750 2500 4900 2500
+	4650 2500 4900 2500
 $Comp
 L FiveStageEQ-rescue:C_Small-Device C9
 U 1 1 5D93D8A4
@@ -405,10 +382,10 @@ $EndComp
 Wire Wire Line
 	5250 3350 5250 3700
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R10
+L FiveStageEQ-rescue:R_Small_US-Device R11
 U 1 1 5D93D8AB
 P 5000 3700
-F 0 "R10" V 5205 3700 50  0000 C CNN
+F 0 "R11" V 5205 3700 50  0000 C CNN
 F 1 "1500" V 5114 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 3700 50  0001 C CNN
 F 3 "~" H 5000 3700 50  0001 C CNN
@@ -452,10 +429,10 @@ F 3 "" H 5250 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R15
+L FiveStageEQ-rescue:R_Small_US-Device R16
 U 1 1 5D93D8C5
 P 5250 3900
-F 0 "R15" H 5182 3854 50  0000 R CNN
+F 0 "R16" H 5182 3854 50  0000 R CNN
 F 1 "3300" H 5182 3945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 3900 50  0001 C CNN
 F 3 "~" H 5250 3900 50  0001 C CNN
@@ -474,10 +451,10 @@ Wire Wire Line
 	5800 3350 6800 3350
 Connection ~ 5800 3350
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R25
+L FiveStageEQ-rescue:R_Small_US-Device R26
 U 1 1 5D93D8EF
 P 7100 3800
-F 0 "R25" V 7305 3800 50  0000 C CNN
+F 0 "R26" V 7305 3800 50  0000 C CNN
 F 1 "100" V 7214 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 3800 50  0001 C CNN
 F 3 "~" H 7100 3800 50  0001 C CNN
@@ -505,10 +482,10 @@ F 3 "~" H 7350 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Variable_US-Device R30
+L FiveStageEQ-rescue:R_Variable_US-Device R31
 U 1 1 5D93D900
 P 7900 3800
-F 0 "R30" V 8150 3800 50  0000 C CNN
+F 0 "R31" V 8150 3800 50  0000 C CNN
 F 1 "1000" V 8050 3800 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Vertical" V 7830 3800 50  0001 C CNN
 F 3 "~" H 7900 3800 50  0001 C CNN
@@ -518,14 +495,12 @@ $EndComp
 Text GLabel 5900 3900 0    50   Input ~ 0
 V_GND
 Wire Wire Line
-	4750 3700 4900 3700
-Wire Wire Line
 	5800 3700 5800 3650
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R20
+L FiveStageEQ-rescue:R_Small_US-Device R21
 U 1 1 5D93D90C
 P 5800 3550
-F 0 "R20" H 5750 3450 50  0000 R CNN
+F 0 "R21" H 5750 3450 50  0000 R CNN
 F 1 "11k" H 5750 3550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 3550 50  0001 C CNN
 F 3 "~" H 5800 3550 50  0001 C CNN
@@ -546,10 +521,10 @@ $EndComp
 Wire Wire Line
 	5250 4550 5250 4900
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R11
+L FiveStageEQ-rescue:R_Small_US-Device R12
 U 1 1 5D94E016
 P 5000 4900
-F 0 "R11" V 5205 4900 50  0000 C CNN
+F 0 "R12" V 5205 4900 50  0000 C CNN
 F 1 "7500" V 5114 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 4900 50  0001 C CNN
 F 3 "~" H 5000 4900 50  0001 C CNN
@@ -593,10 +568,10 @@ F 3 "" H 5250 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R16
+L FiveStageEQ-rescue:R_Small_US-Device R17
 U 1 1 5D94E030
 P 5250 5100
-F 0 "R16" H 5182 5054 50  0000 R CNN
+F 0 "R17" H 5182 5054 50  0000 R CNN
 F 1 "18k" H 5182 5145 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 5100 50  0001 C CNN
 F 3 "~" H 5250 5100 50  0001 C CNN
@@ -615,10 +590,10 @@ Wire Wire Line
 	5800 4550 6800 4550
 Connection ~ 5800 4550
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R26
+L FiveStageEQ-rescue:R_Small_US-Device R27
 U 1 1 5D94E05A
 P 7100 5000
-F 0 "R26" V 7305 5000 50  0000 C CNN
+F 0 "R27" V 7305 5000 50  0000 C CNN
 F 1 "100" V 7214 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 5000 50  0001 C CNN
 F 3 "~" H 7100 5000 50  0001 C CNN
@@ -646,10 +621,10 @@ F 3 "~" H 7350 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Variable_US-Device R31
+L FiveStageEQ-rescue:R_Variable_US-Device R32
 U 1 1 5D94E06B
 P 7900 4300
-F 0 "R31" V 8150 4300 50  0000 C CNN
+F 0 "R32" V 8150 4300 50  0000 C CNN
 F 1 "2000" V 8050 4300 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Vertical" V 7830 4300 50  0001 C CNN
 F 3 "~" H 7900 4300 50  0001 C CNN
@@ -659,14 +634,12 @@ $EndComp
 Text GLabel 5900 5100 0    50   Input ~ 0
 V_GND
 Wire Wire Line
-	4750 4900 4900 4900
-Wire Wire Line
 	5800 4900 5800 4850
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R21
+L FiveStageEQ-rescue:R_Small_US-Device R22
 U 1 1 5D94E077
 P 5800 4750
-F 0 "R21" H 5750 4650 50  0000 R CNN
+F 0 "R22" H 5750 4650 50  0000 R CNN
 F 1 "63k" H 5750 4750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 4750 50  0001 C CNN
 F 3 "~" H 5800 4750 50  0001 C CNN
@@ -687,10 +660,10 @@ $EndComp
 Wire Wire Line
 	5250 5750 5250 6100
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R12
+L FiveStageEQ-rescue:R_Small_US-Device R13
 U 1 1 5D95A8D8
 P 5000 6100
-F 0 "R12" V 5205 6100 50  0000 C CNN
+F 0 "R13" V 5205 6100 50  0000 C CNN
 F 1 "2000" V 5114 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 6100 50  0001 C CNN
 F 3 "~" H 5000 6100 50  0001 C CNN
@@ -734,10 +707,10 @@ F 3 "" H 5250 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R17
+L FiveStageEQ-rescue:R_Small_US-Device R18
 U 1 1 5D95A8F2
 P 5250 6300
-F 0 "R17" H 5182 6254 50  0000 R CNN
+F 0 "R18" H 5182 6254 50  0000 R CNN
 F 1 "43k" H 5182 6345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 6300 50  0001 C CNN
 F 3 "~" H 5250 6300 50  0001 C CNN
@@ -756,10 +729,10 @@ Wire Wire Line
 	5800 5750 6800 5750
 Connection ~ 5800 5750
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R27
+L FiveStageEQ-rescue:R_Small_US-Device R28
 U 1 1 5D95A91C
 P 7100 6200
-F 0 "R27" V 7305 6200 50  0000 C CNN
+F 0 "R28" V 7305 6200 50  0000 C CNN
 F 1 "100" V 7214 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7100 6200 50  0001 C CNN
 F 3 "~" H 7100 6200 50  0001 C CNN
@@ -787,10 +760,10 @@ F 3 "~" H 7350 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Variable_US-Device R32
+L FiveStageEQ-rescue:R_Variable_US-Device R33
 U 1 1 5D95A92D
 P 7900 4800
-F 0 "R32" V 8150 4800 50  0000 C CNN
+F 0 "R33" V 8150 4800 50  0000 C CNN
 F 1 "4000" V 8050 4800 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_148-149_Single_Vertical" V 7830 4800 50  0001 C CNN
 F 3 "~" H 7900 4800 50  0001 C CNN
@@ -800,19 +773,7 @@ $EndComp
 Text GLabel 5900 6300 0    50   Input ~ 0
 V_GND
 Wire Wire Line
-	4750 6100 4900 6100
-Wire Wire Line
 	5800 6100 5800 6050
-Connection ~ 4750 4900
-Wire Wire Line
-	4750 4900 4750 6100
-Connection ~ 4750 3700
-Wire Wire Line
-	4750 3700 4750 4900
-Wire Wire Line
-	4500 3700 4750 3700
-Wire Wire Line
-	4750 2500 4750 3700
 Text Notes 1800 1250 0    50   ~ 0
 (6 Volts)
 Wire Wire Line
@@ -842,10 +803,10 @@ Wire Wire Line
 Wire Wire Line
 	10150 4100 10150 4200
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR037
+L FiveStageEQ-rescue:GND-power #PWR036
 U 1 1 5DB74515
 P 10150 4200
-F 0 "#PWR037" H 10150 3950 50  0001 C CNN
+F 0 "#PWR036" H 10150 3950 50  0001 C CNN
 F 1 "GND" H 10155 4027 50  0000 C CNN
 F 2 "" H 10150 4200 50  0001 C CNN
 F 3 "" H 10150 4200 50  0001 C CNN
@@ -873,10 +834,10 @@ Connection ~ 9300 3900
 Wire Wire Line
 	9300 3900 9100 3900
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R33
+L FiveStageEQ-rescue:R_Small_US-Device R34
 U 1 1 5DCF92A7
 P 8750 3400
-F 0 "R33" V 8955 3400 50  0000 C CNN
+F 0 "R34" V 8955 3400 50  0000 C CNN
 F 1 "10k" V 8864 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 3400 50  0001 C CNN
 F 3 "~" H 8750 3400 50  0001 C CNN
@@ -884,10 +845,10 @@ F 3 "~" H 8750 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR031
+L FiveStageEQ-rescue:GND-power #PWR030
 U 1 1 5DD390F0
 P 8050 5100
-F 0 "#PWR031" H 8050 4850 50  0001 C CNN
+F 0 "#PWR030" H 8050 4850 50  0001 C CNN
 F 1 "GND" H 8055 4927 50  0000 C CNN
 F 2 "" H 8050 5100 50  0001 C CNN
 F 3 "" H 8050 5100 50  0001 C CNN
@@ -904,10 +865,10 @@ Connection ~ 8250 3800
 Wire Wire Line
 	8250 3800 8050 3800
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R34
+L FiveStageEQ-rescue:R_Small_US-Device R36
 U 1 1 5DDD77D3
 P 9700 3900
-F 0 "R34" V 9905 3900 50  0000 C CNN
+F 0 "R36" V 9905 3900 50  0000 C CNN
 F 1 "100" V 9814 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 3900 50  0001 C CNN
 F 3 "~" H 9700 3900 50  0001 C CNN
@@ -948,8 +909,8 @@ $Comp
 L FiveStageEQ-rescue:C_Small-Device C25
 U 1 1 5DE351A1
 P 8050 4950
-F 0 "C25" H 8200 5000 50  0000 C CNN
-F 1 "0.1μ" H 8200 4900 50  0000 C CNN
+F 0 "C25" H 8250 5000 50  0000 C CNN
+F 1 "0.1μ" H 8250 4900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8050 4950 50  0001 C CNN
 F 3 "~" H 8050 4950 50  0001 C CNN
 	1    8050 4950
@@ -977,10 +938,10 @@ $EndComp
 Wire Wire Line
 	6650 1050 6200 1050
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR021
+L FiveStageEQ-rescue:GND-power #PWR020
 U 1 1 5DB6AD96
 P 6650 1050
-F 0 "#PWR021" H 6650 800 50  0001 C CNN
+F 0 "#PWR020" H 6650 800 50  0001 C CNN
 F 1 "GND" H 6650 900 50  0000 C CNN
 F 2 "" H 6650 1050 50  0001 C CNN
 F 3 "" H 6650 1050 50  0001 C CNN
@@ -988,10 +949,10 @@ F 3 "" H 6650 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR022
+L FiveStageEQ-rescue:+12V-power #PWR021
 U 1 1 5DB7A59F
 P 6650 1700
-F 0 "#PWR022" H 6650 1550 50  0001 C CNN
+F 0 "#PWR021" H 6650 1550 50  0001 C CNN
 F 1 "+12V" H 6665 1873 50  0000 C CNN
 F 2 "" H 6650 1700 50  0001 C CNN
 F 3 "" H 6650 1700 50  0001 C CNN
@@ -1087,10 +1048,10 @@ Connection ~ 6200 3000
 Wire Wire Line
 	6200 3000 6150 3000
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR023
+L FiveStageEQ-rescue:GND-power #PWR022
 U 1 1 5DC8ADFA
 P 6650 2250
-F 0 "#PWR023" H 6650 2000 50  0001 C CNN
+F 0 "#PWR022" H 6650 2000 50  0001 C CNN
 F 1 "GND" H 6650 2100 50  0000 C CNN
 F 2 "" H 6650 2250 50  0001 C CNN
 F 3 "" H 6650 2250 50  0001 C CNN
@@ -1098,10 +1059,10 @@ F 3 "" H 6650 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR024
+L FiveStageEQ-rescue:+12V-power #PWR023
 U 1 1 5DC8DA28
 P 6650 2900
-F 0 "#PWR024" H 6650 2750 50  0001 C CNN
+F 0 "#PWR023" H 6650 2750 50  0001 C CNN
 F 1 "+12V" H 6665 3073 50  0000 C CNN
 F 2 "" H 6650 2900 50  0001 C CNN
 F 3 "" H 6650 2900 50  0001 C CNN
@@ -1172,10 +1133,10 @@ Connection ~ 6200 4200
 Wire Wire Line
 	6200 4200 6150 4200
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR025
+L FiveStageEQ-rescue:GND-power #PWR024
 U 1 1 5DDA0040
 P 6650 3450
-F 0 "#PWR025" H 6650 3200 50  0001 C CNN
+F 0 "#PWR024" H 6650 3200 50  0001 C CNN
 F 1 "GND" H 6650 3300 50  0000 C CNN
 F 2 "" H 6650 3450 50  0001 C CNN
 F 3 "" H 6650 3450 50  0001 C CNN
@@ -1183,10 +1144,10 @@ F 3 "" H 6650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR026
+L FiveStageEQ-rescue:+12V-power #PWR025
 U 1 1 5DDA0046
 P 6650 4100
-F 0 "#PWR026" H 6650 3950 50  0001 C CNN
+F 0 "#PWR025" H 6650 3950 50  0001 C CNN
 F 1 "+12V" H 6665 4273 50  0000 C CNN
 F 2 "" H 6650 4100 50  0001 C CNN
 F 3 "" H 6650 4100 50  0001 C CNN
@@ -1215,10 +1176,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 4300 8400 4300
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR032
+L FiveStageEQ-rescue:GND-power #PWR031
 U 1 1 5DD51451
 P 8400 4350
-F 0 "#PWR032" H 8400 4100 50  0001 C CNN
+F 0 "#PWR031" H 8400 4100 50  0001 C CNN
 F 1 "GND" H 8400 4200 50  0000 C CNN
 F 2 "" H 8400 4350 50  0001 C CNN
 F 3 "" H 8400 4350 50  0001 C CNN
@@ -1228,10 +1189,10 @@ $EndComp
 Wire Wire Line
 	9150 4200 9150 4300
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR034
+L FiveStageEQ-rescue:+12V-power #PWR033
 U 1 1 5DD16CD7
 P 9150 4200
-F 0 "#PWR034" H 9150 4050 50  0001 C CNN
+F 0 "#PWR033" H 9150 4050 50  0001 C CNN
 F 1 "+12V" H 9165 4373 50  0000 C CNN
 F 2 "" H 9150 4200 50  0001 C CNN
 F 3 "" H 9150 4200 50  0001 C CNN
@@ -1239,10 +1200,10 @@ F 3 "" H 9150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR033
+L FiveStageEQ-rescue:GND-power #PWR032
 U 1 1 5DD15780
 P 9150 3550
-F 0 "#PWR033" H 9150 3300 50  0001 C CNN
+F 0 "#PWR032" H 9150 3300 50  0001 C CNN
 F 1 "GND" H 9150 3400 50  0000 C CNN
 F 2 "" H 9150 3550 50  0001 C CNN
 F 3 "" H 9150 3550 50  0001 C CNN
@@ -1287,10 +1248,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 5400 5950 5400
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR019
+L FiveStageEQ-rescue:GND-power #PWR018
 U 1 1 5DE22A8C
 P 5900 5450
-F 0 "#PWR019" H 5900 5200 50  0001 C CNN
+F 0 "#PWR018" H 5900 5200 50  0001 C CNN
 F 1 "GND" H 5900 5300 50  0000 C CNN
 F 2 "" H 5900 5450 50  0001 C CNN
 F 3 "" H 5900 5450 50  0001 C CNN
@@ -1300,10 +1261,10 @@ $EndComp
 Wire Wire Line
 	6650 5300 6650 5400
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR028
+L FiveStageEQ-rescue:+12V-power #PWR027
 U 1 1 5DE22A93
 P 6650 5300
-F 0 "#PWR028" H 6650 5150 50  0001 C CNN
+F 0 "#PWR027" H 6650 5150 50  0001 C CNN
 F 1 "+12V" H 6665 5473 50  0000 C CNN
 F 2 "" H 6650 5300 50  0001 C CNN
 F 3 "" H 6650 5300 50  0001 C CNN
@@ -1311,10 +1272,10 @@ F 3 "" H 6650 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR027
+L FiveStageEQ-rescue:GND-power #PWR026
 U 1 1 5DE22A99
 P 6650 4650
-F 0 "#PWR027" H 6650 4400 50  0001 C CNN
+F 0 "#PWR026" H 6650 4400 50  0001 C CNN
 F 1 "GND" H 6650 4500 50  0000 C CNN
 F 2 "" H 6650 4650 50  0001 C CNN
 F 3 "" H 6650 4650 50  0001 C CNN
@@ -1370,10 +1331,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 6600 5900 6600
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR020
+L FiveStageEQ-rescue:GND-power #PWR019
 U 1 1 5DE655F8
 P 5900 6650
-F 0 "#PWR020" H 5900 6400 50  0001 C CNN
+F 0 "#PWR019" H 5900 6400 50  0001 C CNN
 F 1 "GND" H 5900 6500 50  0000 C CNN
 F 2 "" H 5900 6650 50  0001 C CNN
 F 3 "" H 5900 6650 50  0001 C CNN
@@ -1383,10 +1344,10 @@ $EndComp
 Wire Wire Line
 	6650 6500 6650 6600
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR029
+L FiveStageEQ-rescue:GND-power #PWR028
 U 1 1 5DE65605
 P 6650 5850
-F 0 "#PWR029" H 6650 5600 50  0001 C CNN
+F 0 "#PWR028" H 6650 5600 50  0001 C CNN
 F 1 "GND" H 6650 5700 50  0000 C CNN
 F 2 "" H 6650 5850 50  0001 C CNN
 F 3 "" H 6650 5850 50  0001 C CNN
@@ -1449,10 +1410,10 @@ F 3 "~" H 8800 3900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR030
+L FiveStageEQ-rescue:+12V-power #PWR029
 U 1 1 5DE655FF
 P 6650 6500
-F 0 "#PWR030" H 6650 6350 50  0001 C CNN
+F 0 "#PWR029" H 6650 6350 50  0001 C CNN
 F 1 "+12V" H 6665 6673 50  0000 C CNN
 F 2 "" H 6650 6500 50  0001 C CNN
 F 3 "" H 6650 6500 50  0001 C CNN
@@ -1460,10 +1421,10 @@ F 3 "" H 6650 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R22
+L FiveStageEQ-rescue:R_Small_US-Device R23
 U 1 1 5D95A939
 P 5800 5950
-F 0 "R22" H 5750 5850 50  0000 R CNN
+F 0 "R23" H 5750 5850 50  0000 R CNN
 F 1 "15k" H 5750 5950 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 5950 50  0001 C CNN
 F 3 "~" H 5800 5950 50  0001 C CNN
@@ -1487,10 +1448,10 @@ Connection ~ 3800 3700
 Wire Wire Line
 	3800 3250 3800 3700
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R6
+L FiveStageEQ-rescue:R_Small_US-Device R7
 U 1 1 5D728D77
 P 3200 3250
-F 0 "R6" V 3405 3250 50  0000 C CNN
+F 0 "R7" V 3405 3250 50  0000 C CNN
 F 1 "47k" V 3314 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 3250 50  0001 C CNN
 F 3 "~" H 3200 3250 50  0001 C CNN
@@ -1517,19 +1478,19 @@ Wire Wire Line
 $Comp
 L FiveStageEQ-rescue:GND-power #PWR05
 U 1 1 5D7579DF
-P 2250 4400
-F 0 "#PWR05" H 2250 4150 50  0001 C CNN
-F 1 "GND" H 2250 4250 50  0000 C CNN
-F 2 "" H 2250 4400 50  0001 C CNN
-F 3 "" H 2250 4400 50  0001 C CNN
-	1    2250 4400
+P 2250 4450
+F 0 "#PWR05" H 2250 4200 50  0001 C CNN
+F 1 "GND" H 2250 4300 50  0000 C CNN
+F 2 "" H 2250 4450 50  0001 C CNN
+F 3 "" H 2250 4450 50  0001 C CNN
+	1    2250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R4
+L FiveStageEQ-rescue:R_Small_US-Device R3
 U 1 1 5D753A8E
 P 2100 4200
-F 0 "R4" H 2250 4150 50  0000 R CNN
+F 0 "R3" H 2250 4150 50  0000 R CNN
 F 1 "47k" H 2300 4250 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2100 4200 50  0001 C CNN
 F 3 "~" H 2100 4200 50  0001 C CNN
@@ -1562,7 +1523,6 @@ F 3 "~" H 3200 3700 50  0001 C CNN
 	3    3200 3700
 	1    0    0    1   
 $EndComp
-Connection ~ 3100 4000
 $Comp
 L FiveStageEQ-rescue:+12V-power #PWR09
 U 1 1 5D728DAC
@@ -1575,7 +1535,7 @@ F 3 "" H 3550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 4000 3550 4000
+	3100 4100 3550 4100
 Wire Wire Line
 	3550 3350 3100 3350
 $Comp
@@ -1606,10 +1566,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 3600 2450 3600
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R5
+L FiveStageEQ-rescue:R_Small_US-Device R6
 U 1 1 5D728D8C
 P 2600 3600
-F 0 "R5" V 2805 3600 50  0000 C CNN
+F 0 "R6" V 2805 3600 50  0000 C CNN
 F 1 "47k" V 2714 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 3600 50  0001 C CNN
 F 3 "~" H 2600 3600 50  0001 C CNN
@@ -1641,16 +1601,12 @@ Filter Stage
 Wire Notes Line
 	7700 2400 7700 5450
 Wire Notes Line
-	7700 5450 9550 5450
+	7700 5450 9500 5450
 Wire Notes Line
 	9500 2400 7700 2400
 Wire Notes Line
 	9500 2400 9500 5450
-Text Notes 9100 2750 2    118  ~ 0
-Summing
-Text Notes 8450 2950 0    118  ~ 0
-Stage
-Text Notes 1450 950  0    118  ~ 0
+Text Notes 1400 950  0    118  ~ 0
 Virtual Ground
 Wire Notes Line
 	2800 650  2800 2100
@@ -1660,7 +1616,6 @@ Wire Notes Line
 	800  2100 800  650 
 Wire Notes Line
 	800  650  2800 650 
-Connection ~ 4750 2500
 Connection ~ 5800 2500
 Wire Wire Line
 	5800 2500 6000 2500
@@ -1673,12 +1628,12 @@ Wire Notes Line
 Wire Notes Line
 	4000 4850 4000 2400
 Wire Wire Line
-	4750 1300 4750 2500
+	4650 1300 4650 2500
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R19
+L FiveStageEQ-rescue:R_Small_US-Device R20
 U 1 1 5D9300D4
 P 5800 2350
-F 0 "R19" H 5750 2250 50  0000 R CNN
+F 0 "R20" H 5750 2250 50  0000 R CNN
 F 1 "22k" H 5750 2350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 2350 50  0001 C CNN
 F 3 "~" H 5800 2350 50  0001 C CNN
@@ -1733,10 +1688,10 @@ Regulator
 Text Notes 8350 1450 0    118  ~ 0
 Voltage
 $Comp
-L FiveStageEQ-rescue:GND-power #PWR036
+L FiveStageEQ-rescue:GND-power #PWR035
 U 1 1 5D9352F0
 P 9700 1850
-F 0 "#PWR036" H 9700 1600 50  0001 C CNN
+F 0 "#PWR035" H 9700 1600 50  0001 C CNN
 F 1 "GND" H 9705 1677 50  0000 C CNN
 F 2 "" H 9700 1850 50  0001 C CNN
 F 3 "" H 9700 1850 50  0001 C CNN
@@ -1748,10 +1703,10 @@ Wire Wire Line
 Wire Wire Line
 	8950 1100 8950 1150
 $Comp
-L FiveStageEQ-rescue:VCC-power #PWR035
+L FiveStageEQ-rescue:VCC-power #PWR034
 U 1 1 5D907F70
 P 9250 1100
-F 0 "#PWR035" H 9250 950 50  0001 C CNN
+F 0 "#PWR034" H 9250 950 50  0001 C CNN
 F 1 "VCC" H 9267 1273 50  0000 C CNN
 F 2 "" H 9250 1100 50  0001 C CNN
 F 3 "" H 9250 1100 50  0001 C CNN
@@ -1834,10 +1789,10 @@ $EndComp
 Wire Wire Line
 	10050 1150 10050 1250
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R36
+L FiveStageEQ-rescue:R_Small_US-Device R37
 U 1 1 5D4F4D80
 P 10050 1350
-F 0 "R36" H 10118 1396 50  0000 L CNN
+F 0 "R37" H 10118 1396 50  0000 L CNN
 F 1 "240" H 10118 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10050 1350 50  0001 C CNN
 F 3 "~" H 10050 1350 50  0001 C CNN
@@ -1868,66 +1823,33 @@ F 3 "~" H 10400 1450 50  0001 C CNN
 $EndComp
 Connection ~ 9700 1800
 $Comp
-L FiveStageEQ-rescue:+12V-power #PWR038
+L FiveStageEQ-rescue:+12V-power #PWR037
 U 1 1 5D50130A
 P 10400 1100
-F 0 "#PWR038" H 10400 950 50  0001 C CNN
+F 0 "#PWR037" H 10400 950 50  0001 C CNN
 F 1 "+12V" H 10415 1273 50  0000 C CNN
 F 2 "" H 10400 1100 50  0001 C CNN
 F 3 "" H 10400 1100 50  0001 C CNN
 	1    10400 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L FiveStageEQ-rescue:R_Small_US-Device R?
-U 1 1 5D7C3C03
-P 2400 4200
-F 0 "R?" H 2332 4154 50  0000 R CNN
-F 1 "47k" H 2332 4245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 4200 50  0001 C CNN
-F 3 "~" H 2400 4200 50  0001 C CNN
-	1    2400 4200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 4350 2250 4350
-Wire Wire Line
-	2250 4350 2250 4400
-Connection ~ 2250 4350
-Wire Wire Line
-	2100 4050 2250 4050
-Wire Wire Line
-	2250 4050 2250 3900
-Connection ~ 2250 4050
-Wire Wire Line
-	2250 4050 2400 4050
 Wire Wire Line
 	2250 3900 2800 3900
-Wire Wire Line
-	2100 4350 2250 4350
-Wire Wire Line
-	2100 4300 2100 4350
-Wire Wire Line
-	2100 4050 2100 4100
-Wire Wire Line
-	2400 4300 2400 4350
-Wire Wire Line
-	2400 4050 2400 4100
 Wire Wire Line
 	3100 4000 3100 4100
 $Comp
 L FiveStageEQ-rescue:C_Small-Device C3
 U 1 1 5D728D9C
-P 3100 4200
-F 0 "C3" H 2900 4100 50  0000 C CNN
-F 1 "0.1μ" H 2900 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 4200 50  0001 C CNN
-F 3 "~" H 3100 4200 50  0001 C CNN
-	1    3100 4200
+P 3100 4250
+F 0 "C3" H 2900 4200 50  0000 C CNN
+F 1 "0.1μ" H 2900 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 4250 50  0001 C CNN
+F 3 "~" H 3100 4250 50  0001 C CNN
+	1    3100 4250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3100 4400 3100 4300
+	3100 4400 3100 4350
 $Comp
 L FiveStageEQ-rescue:GND-power #PWR07
 U 1 1 5D728DA3
@@ -1940,28 +1862,123 @@ F 3 "" H 3100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FiveStageEQ-rescue:R_Small_US-Device R3
+L FiveStageEQ-rescue:R_Small_US-Device R4
 U 1 1 5D748BAA
 P 2250 3700
-F 0 "R3" H 2100 3750 50  0000 C CNN
+F 0 "R4" H 2100 3750 50  0000 C CNN
 F 1 "47k" H 2100 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 3700 50  0001 C CNN
 F 3 "~" H 2250 3700 50  0001 C CNN
 	1    2250 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L FiveStageEQ-rescue:+12V-power #PWR04
-U 1 1 5D744A2C
-P 2250 3600
-F 0 "#PWR04" H 2250 3450 50  0001 C CNN
-F 1 "+12V" H 2265 3773 50  0000 C CNN
-F 2 "" H 2250 3600 50  0001 C CNN
-F 3 "" H 2250 3600 50  0001 C CNN
-	1    2250 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 3800 2250 3900
 Connection ~ 2250 3900
+Text Notes 8450 2950 0    118  ~ 0
+Stage
+Text Notes 9100 2750 2    118  ~ 0
+Summing
+Connection ~ 3100 4100
+Wire Wire Line
+	3100 4100 3100 4150
+Wire Wire Line
+	3550 4100 3550 4000
+Text Notes 4850 900  0    79   ~ 0
+60Hz
+Text Notes 4800 2100 0    79   ~ 0
+250Hz
+Text Notes 4750 3300 0    79   ~ 0
+1,000Hz
+Text Notes 4750 4500 0    79   ~ 0
+4,000Hz
+Text Notes 4700 5700 0    79   ~ 0
+16,000Hz
+Connection ~ 4650 2500
+Wire Wire Line
+	3800 3700 4100 3700
+$Comp
+L FiveStageEQ-rescue:R_Small_US-Device R8
+U 1 1 5D728DB2
+P 4200 3700
+F 0 "R8" V 4405 3700 50  0000 C CNN
+F 1 "100" V 4314 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 3700 50  0001 C CNN
+F 3 "~" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2500 4650 3700
+Wire Wire Line
+	4650 3700 4900 3700
+Connection ~ 4650 3700
+$Comp
+L FiveStageEQ-rescue:C_Small-Device C4
+U 1 1 5D728DB9
+P 4400 3700
+F 0 "C4" V 4171 3700 50  0000 C CNN
+F 1 "10μ" V 4262 3700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 3700 50  0001 C CNN
+F 3 "~" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3700 4650 3700
+Wire Wire Line
+	4650 6100 4900 6100
+Wire Wire Line
+	4650 4900 4900 4900
+Connection ~ 4650 4900
+Wire Wire Line
+	4650 4900 4650 6100
+Wire Wire Line
+	4650 3700 4650 4900
+$Comp
+L FiveStageEQ-rescue:+12V-power #PWR04
+U 1 1 5DF4CCA2
+P 2250 3500
+F 0 "#PWR04" H 2250 3350 50  0001 C CNN
+F 1 "+12V" H 2265 3673 50  0000 C CNN
+F 2 "" H 2250 3500 50  0001 C CNN
+F 3 "" H 2250 3500 50  0001 C CNN
+	1    2250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3500 2250 3600
+$Comp
+L FiveStageEQ-rescue:R_Small_US-Device R5
+U 1 1 5DF8F310
+P 2400 4200
+F 0 "R5" H 2350 4150 50  0000 R CNN
+F 1 "47k" H 2350 4250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 4200 50  0001 C CNN
+F 3 "~" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4050 2100 4050
+Wire Wire Line
+	2250 3900 2250 4050
+Wire Wire Line
+	2400 4050 2250 4050
+Connection ~ 2250 4050
+Wire Wire Line
+	2400 4100 2400 4050
+Wire Wire Line
+	2100 4050 2100 4100
+Wire Wire Line
+	2100 4300 2100 4350
+Wire Wire Line
+	2100 4350 2250 4350
+Wire Wire Line
+	2400 4350 2400 4300
+Wire Wire Line
+	2250 4350 2250 4450
+Connection ~ 2250 4350
+Wire Wire Line
+	2250 4350 2400 4350
 $EndSCHEMATC
