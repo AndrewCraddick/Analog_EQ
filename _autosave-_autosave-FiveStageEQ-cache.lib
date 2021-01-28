@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_AudioJack3
+#
+DEF Connector_AudioJack3 J 0 20 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Connector_AudioJack3" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -200 -200 -250 -100 0 1 10 F
+S 100 150 -200 -200 0 1 10 f
+P 4 0 1 10 0 -100 25 -125 50 -100 100 -100 N
+P 5 0 1 10 -75 -100 -50 -125 -25 -100 -25 0 100 0 N
+P 5 0 1 10 100 100 -100 100 -100 -100 -125 -125 -150 -100 N
+X S 1 200 100 100 L 50 50 1 1 P
+X T 2 200 -100 100 L 50 50 1 1 P
+X R 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Custom_LM833
 #
 DEF Custom_LM833 U 0 20 Y Y 3 L N
@@ -31,6 +53,30 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
+# Device_R_Potentiometer_US
+#
+DEF Device_R_Potentiometer_US R 0 40 Y N 1 F N
+F0 "R" -175 0 50 V V C CNN
+F1 "Device_R_Potentiometer_US" -100 0 50 V I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 100 0 90 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FiveStageEQ-rescue_+12V-power
 #
 DEF FiveStageEQ-rescue_+12V-power #PWR 0 0 Y Y 1 F P
@@ -43,28 +89,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# FiveStageEQ-rescue_AudioJack3-Connector
-#
-DEF FiveStageEQ-rescue_AudioJack3-Connector J 0 20 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "FiveStageEQ-rescue_AudioJack3-Connector" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jack*
-$ENDFPLIST
-DRAW
-S -200 -200 -250 -100 0 1 10 F
-S 100 150 -200 -200 0 1 10 f
-P 4 0 1 10 0 -100 25 -125 50 -100 100 -100 N
-P 5 0 1 10 -75 -100 -50 -125 -25 -100 -25 0 100 0 N
-P 5 0 1 10 100 100 -100 100 -100 -100 -125 -125 -150 -100 N
-X ~ R 200 0 100 L 50 50 1 1 P
-X ~ S 200 100 100 L 50 50 1 1 P
-X ~ T 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -165,28 +189,6 @@ P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
 P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
 X ~ 1 0 100 40 D 50 50 1 1 P
 X ~ 2 0 -100 40 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# FiveStageEQ-rescue_R_Variable_US-Device
-#
-DEF FiveStageEQ-rescue_R_Variable_US-Device R 0 0 N Y 1 F N
-F0 "R" 100 -100 50 V V L CNN
-F1 "FiveStageEQ-rescue_R_Variable_US-Device" -100 -50 50 V V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 6 0 90 40 75 0 60 -40 45 0 30 N
-P 5 0 1 6 90 60 100 100 60 90 100 100 -80 -80 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

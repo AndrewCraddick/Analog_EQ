@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 18)
+    (tracks 19)
     (zones 0)
     (modules 72)
     (nets 47)
@@ -67,7 +67,7 @@
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFDF7FF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -244,7 +244,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 601111EB) (tstamp 6011F3A0)
-    (at 97.028 77.724 180)
+    (at 115.824 98.552 180)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5D930080)
@@ -287,7 +287,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 601111CF) (tstamp 6011F3E8)
-    (at 97.536 72.644 180)
+    (at 116.332 93.472 180)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5D93006C)
@@ -330,7 +330,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 601111B6) (tstamp 6011F430)
-    (at 97.028 65.532 180)
+    (at 115.824 86.36 180)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5D506577)
@@ -373,7 +373,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 60111199) (tstamp 6011F478)
-    (at 97.028 60.452 180)
+    (at 115.824 81.28 180)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5D5009EA)
@@ -416,7 +416,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 6011117E) (tstamp 60126780)
-    (at 70.612 77.216 90)
+    (at 265.9634 42.164 90)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5DB8AD6A)
@@ -459,7 +459,7 @@
   )
 
   (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 60111155) (tstamp 60126705)
-    (at 84.328 123.444 90)
+    (at 262.5852 42.164 90)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5DDA0030)
@@ -833,8 +833,8 @@
     )
   )
 
-  (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 60110C5E) (tstamp 60126921)
-    (at 84.328 173.736 90)
+  (module SamacSys_Parts:CAPPA1472W54L508D241 (layer F.Cu) (tedit 60110C5E) (tstamp 60126810)
+    (at 259.207 42.164 90)
     (descr "Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.1uF Z5U 20%")
     (tags Capacitor)
     (path /5DE65615)
@@ -961,7 +961,7 @@
   )
 
   (module 100uf_cap:FK20X5R0J107M (layer F.Cu) (tedit 600F5AB3) (tstamp 6010A73C)
-    (at 225.552 40.64 270)
+    (at 89.916 22.352 270)
     (path /5D5FF26F)
     (fp_text reference C1 (at 0 -3.048 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1073,7 +1073,7 @@
   )
 
   (module SamacSys_Parts:CAPC1005X55N (layer F.Cu) (tedit 600F5A75) (tstamp 600FE3E1)
-    (at 94.488 108.204 270)
+    (at 45.212 117.348 270)
     (descr "GCM15 L=1.0mm W=0.5mm T=0.5mm, 0.047uF")
     (tags Capacitor)
     (path /5D93D8A4)
@@ -1107,7 +1107,7 @@
   )
 
   (module SamacSys_Parts:CAPC1005X55N (layer F.Cu) (tedit 600F5A75) (tstamp 600FE3F0)
-    (at 94.488 113.84 270)
+    (at 45.212 122.984 270)
     (descr "GCM15 L=1.0mm W=0.5mm T=0.5mm, 0.047uF")
     (tags Capacitor)
     (path /5D93D8B8)
@@ -1141,7 +1141,7 @@
   )
 
   (module SamacSys_Parts:CAPC0603X33N (layer F.Cu) (tedit 600F5A8A) (tstamp 600FE3FF)
-    (at 94.488 118.872 270)
+    (at 45.212 128.016 270)
     (descr "AVX0201, Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 2200pF")
     (tags Capacitor)
     (path /5D94E00F)
@@ -1175,7 +1175,7 @@
   )
 
   (module SamacSys_Parts:CAPC0603X33N (layer F.Cu) (tedit 600F5A8A) (tstamp 60110FBD)
-    (at 94.488 123.617 270)
+    (at 45.212 132.761 270)
     (descr "AVX0201, Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 2200pF")
     (tags Capacitor)
     (path /5D94E023)
@@ -1209,7 +1209,7 @@
   )
 
   (module SamacSys_Parts:CAPC0603X33N (layer F.Cu) (tedit 600F5A8A) (tstamp 600FE41D)
-    (at 95.504 162.56 270)
+    (at 45.212 136.144 270)
     (descr "AVX0201, Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 2200pF")
     (tags Capacitor)
     (path /5D95A8D1)
@@ -1243,7 +1243,7 @@
   )
 
   (module SamacSys_Parts:CAPC0603X33N (layer F.Cu) (tedit 600F5A8A) (tstamp 600FE42C)
-    (at 95.504 166.624 270)
+    (at 45.212 140.208 270)
     (descr "AVX0201, Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 2200pF")
     (tags Capacitor)
     (path /5D95A8E5)
@@ -1654,7 +1654,7 @@
   )
 
   (module SamacSys_Parts:RESC2012X60N (layer F.Cu) (tedit 600F76D7) (tstamp 60107F6A)
-    (at 210.947 39.7637)
+    (at 75.311 21.4757)
     (descr "Thin Film Resistors - SMD 0805 27k, 63k, 2k ohms")
     (tags Resistor)
     (path /5D605317)
@@ -1689,7 +1689,7 @@
   )
 
   (module SamacSys_Parts:RESC2012X60N (layer F.Cu) (tedit 600F76D7) (tstamp 60119AC7)
-    (at 210.94954 43.27652 180)
+    (at 75.31354 24.98852 180)
     (descr "Thin Film Resistors - SMD 0805 27k, 63k, 2k ohms")
     (tags Resistor)
     (path /5D5FE37E)
@@ -2114,7 +2114,7 @@
   )
 
   (module SamacSys_Parts:RESC2012X60N (layer F.Cu) (tedit 600F76D7) (tstamp 6011A182)
-    (at 65.659 56.769 180)
+    (at 107.823 49.149 180)
     (descr "Thin Film Resistors - SMD 0805 27k, 63k, 2k ohms")
     (tags Resistor)
     (path /5D5248E4)
@@ -2149,7 +2149,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 6011A157)
-    (at 58.039 56.769 180)
+    (at 100.203 49.149 180)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D93008D)
@@ -2183,7 +2183,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 6011A12D)
-    (at 59.436 117.564 270)
+    (at 125.476 64.008 270)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D93D8C5)
@@ -2217,7 +2217,7 @@
   )
 
   (module footprints:CFR-25JB-52-18K (layer F.Cu) (tedit 600F5ADF) (tstamp 60110DFB)
-    (at 67.564 107.188)
+    (at 119.38 56.896)
     (path /5D94E030)
     (fp_text reference R17 (at 6.096 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2263,7 +2263,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 60118F4D)
-    (at 64.516 157.988)
+    (at 118.58 49.276)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D95A8F2)
@@ -2297,7 +2297,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 60117E22)
-    (at 77.724 65.024)
+    (at 122.72 86.36)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D4F9AF0)
@@ -2331,7 +2331,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 60117DF8)
-    (at 77.94 69.596)
+    (at 123.228 93.472)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D9300D4)
@@ -2365,7 +2365,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 60117EBB)
-    (at 79.756 118.872)
+    (at 122.936 98.552)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D93D90C)
@@ -2399,7 +2399,7 @@
   )
 
   (module SamacSys_Parts:RESC2012X60N (layer F.Cu) (tedit 600F76D7) (tstamp 60117E8F)
-    (at 79.756 123.952)
+    (at 122.936 103.632)
     (descr "Thin Film Resistors - SMD 0805 27k, 63k, 2k ohms")
     (tags Resistor)
     (path /5D94E077)
@@ -2434,7 +2434,7 @@
   )
 
   (module SamacSys_Parts:RESC1608X55N (layer F.Cu) (tedit 600F784F) (tstamp 60117F27)
-    (at 79.54 156.972)
+    (at 122.428 108.204)
     (descr "Thin Film Resistors - SMD 0603 43K, 91k, 22k, 11k, 3.3k, 6.3k, 7.5k ohms")
     (tags Resistor)
     (path /5D95A939)
@@ -2843,7 +2843,7 @@
   )
 
   (module LM833_Badge:LM833-N-PDIP (layer F.Cu) (tedit 600C9603) (tstamp 600FE8F7)
-    (at 62.484 65.532 180)
+    (at 80.264 89.408 180)
     (descr "Audio OP Amp")
     (path /5DC7CC15)
     (fp_text reference U2 (at 0 -5.588) (layer F.SilkS)
@@ -2879,7 +2879,7 @@
   )
 
   (module LM833_Badge:LM833-N-PDIP (layer F.Cu) (tedit 600C9603) (tstamp 600FE90B)
-    (at 72.136 116.332 180)
+    (at 79.248 115.316 180)
     (descr "Audio OP Amp")
     (path /5DDA0037)
     (fp_text reference U3 (at 0 -5.588) (layer F.SilkS)
@@ -2915,7 +2915,7 @@
   )
 
   (module LM833_Badge:LM833-N-PDIP (layer F.Cu) (tedit 600C9603) (tstamp 600FE91F)
-    (at 70.612 165.227 180)
+    (at 79.248 146.431 180)
     (descr "Audio OP Amp")
     (path /5DE6560E)
     (fp_text reference U4 (at 0 -5.588) (layer F.SilkS)
@@ -3055,6 +3055,7 @@
   )
 
   (segment (start 255.8415 25.1025) (end 255.8415 27.464) (width 0.254) (layer F.Cu) (net 5) (tstamp 60126889))
+  (segment (start 255.8415 27.464) (end 259.207 27.464) (width 0.254) (layer F.Cu) (net 5) (tstamp 6012688C))
   (segment (start 255.8415 27.464) (end 254.40284 28.90266) (width 0.254) (layer F.Cu) (net 5) (tstamp 6012674B))
   (segment (start 250.5634 27.3812) (end 249.8344 27.3812) (width 0.254) (layer F.Cu) (net 5) (tstamp 60126760))
   (segment (start 252.08486 28.90266) (end 250.5634 27.3812) (width 0.254) (layer F.Cu) (net 5) (tstamp 60126763))
