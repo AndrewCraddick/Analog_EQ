@@ -1,0 +1,129 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Custom_LM833
+#
+DEF Custom_LM833 U 0 20 Y Y 3 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "Custom_LM833" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ DIP*W7.62mm*
+ MSOP*3x3mm*P0.65mm*
+ SSOP*2.95x2.8mm*P0.65mm*
+ TSSOP*3x3mm*P0.65mm*
+ VSSOP*P0.5mm*
+ TO?99*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X V- 4 -100 -300 150 U 50 50 3 1 W
+X V+ 8 -100 300 150 D 50 50 3 1 W
+ENDDRAW
+ENDDEF
+#
+# Custom_R_Potentiometer_Dual_US
+#
+DEF Custom_R_Potentiometer_Dual_US R 0 40 Y Y 2 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "Custom_R_Potentiometer_Dual_US" 0 200 50 H I C CNN
+F2 "" -150 -300 50 H I C CNN
+F3 "" -150 -300 50 H I C CNN
+DRAW
+P 2 1 1 0 -100 0 -90 0 N
+P 2 1 1 0 0 -100 0 -60 N
+P 2 1 1 0 90 0 100 0 N
+P 4 1 1 0 0 -45 20 -90 -20 -90 0 -45 F
+P 5 1 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+P 2 2 1 0 -100 0 -90 0 N
+P 2 2 1 0 0 -100 0 -60 N
+P 2 2 1 0 90 0 100 0 N
+P 4 2 1 0 0 -45 20 -90 -20 -90 0 -45 F
+P 5 2 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 2 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 2 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+X ~ 3 150 0 50 L 50 50 1 1 P
+X ~ 4 -150 0 50 R 50 50 2 1 P
+X ~ 5 0 -150 50 U 50 50 2 1 P
+X ~ 6 150 0 50 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# StereoEQ_Filter-rescue_+12V-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue
+#
+DEF StereoEQ_Filter-rescue_+12V-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "StereoEQ_Filter-rescue_+12V-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# StereoEQ_Filter-rescue_C_Small-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue
+#
+DEF StereoEQ_Filter-rescue_C_Small-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "StereoEQ_Filter-rescue_C_Small-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# StereoEQ_Filter-rescue_GND-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue
+#
+DEF StereoEQ_Filter-rescue_GND-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "StereoEQ_Filter-rescue_GND-power-FiveStageEQ-rescue-FiveStageStereoEQ-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# StereoEQ_Filter-rescue_R_Small_US-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue
+#
+DEF StereoEQ_Filter-rescue_R_Small_US-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "StereoEQ_Filter-rescue_R_Small_US-Device-FiveStageEQ-rescue-FiveStageStereoEQ-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

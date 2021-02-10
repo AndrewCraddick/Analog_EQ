@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name StereoEQ_Filter-rescue)(type Legacy)(uri ${KIPRJMOD}/StereoEQ_Filter-rescue.lib)(options "")(descr ""))
+)
