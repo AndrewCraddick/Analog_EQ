@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Andrew's LG\\Analog_EQ\\FiveStageStereoEQ\\FiveStageStereoEQ.sch")
-    (date "2/10/2021 3:45:11 AM")
+    (date "2/15/2021 6:01:47 PM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -50,14 +50,14 @@
   (components
     (comp (ref J102)
       (value AudioJack3)
-      (footprint SamacSys_Parts:SJ13523N)
+      (footprint SJ1-3523N:CUI_SJ1-3523N)
       (datasheet ~)
       (libsource (lib Connector) (part AudioJack3) (description "Audio Jack, 3 Poles (Stereo / TRS)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 60107E8F))
     (comp (ref J101)
       (value AudioJack3)
-      (footprint SamacSys_Parts:SJ13523N)
+      (footprint SJ1-3523N:CUI_SJ1-3523N)
       (datasheet ~)
       (libsource (lib Connector) (part AudioJack3) (description "Audio Jack, 3 Poles (Stereo / TRS)"))
       (sheetpath (names /) (tstamps /))
